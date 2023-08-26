@@ -2,7 +2,7 @@ import { useState } from 'react';
 import Container from './component/Container';
 
 function App() {
-	const [data, setdata] = useState([
+	const [data] = useState([
 		{
 			title: 'Sunday Super Club',
 			text: 'A culinary event with foods from all over the word. This is a weekly club you can join for a small fee. Learn cooking methods from top chef...',
