@@ -27,7 +27,7 @@ const Container = ({
 				<h1>{month}</h1>
 			</div>
 			<div className="flex flex-col md:justify-between md:self-center md:px-5 md:flex-row md:gap-11">
-				<div className="md:px-12 ">
+				<div className="md:px-12 flex-1 ">
 					<h1 className="text-white md:py-2 text-xl border-b-2 md:mb-2 border-b-[#545454]">
 						{title}
 					</h1>
@@ -40,12 +40,12 @@ const Container = ({
 						+ Event Details
 					</a>
 				</div>
-				<div className="">
-					<h2 className="text-white md:py-2 font-medium text-xl border-b-2 md:mb-2 border-b-[#545454] w-fit">
+				<div className="md:w-[19%] ">
+					<h2 className="text-white md:py-2 font-medium text-xl  md:mb-2  underline underline-offset-8 decoration-[#545454] md:text-right ">
 						{startTime} - {endTime}
 					</h2>
 
-					<p className="text-[#545454]">{location}</p>
+					<p className="text-[#545454] md:text-right">{location}</p>
 				</div>
 			</div>
 		</div>
