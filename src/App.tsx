@@ -79,6 +79,20 @@ function App() {
 						</div>
 					))}
 				</div>
+				{/* message icon */}
+				<div className="w-14 h-14 rounded-full flex items-center justify-center bg-amber-600 p-3 text-black fixed bottom-5 right-5">
+					<svg
+						xmlns="http://www.w3.org/2000/svg"
+						width="512"
+						height="512"
+						viewBox="0 0 512 512"
+					>
+						<path
+							fill="currentColor"
+							d="M144 464a16 16 0 0 1-16-16v-64h-24a72.08 72.08 0 0 1-72-72V120a72.08 72.08 0 0 1 72-72h304a72.08 72.08 0 0 1 72 72v192a72.08 72.08 0 0 1-72 72H245.74l-91.49 76.29A16.05 16.05 0 0 1 144 464Z"
+						/>
+					</svg>
+				</div>
 			</section>
 		</>
 	);
